@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <head>
+        <h2>Target-self</h2>
+        <p> Loads the page in same tab or window</p>
+        <form target="_self">
+            <label for="firstname" ></label>
+            <input type="name" name="firstname">
+        </form>
+        <h2>Target-blank</h2>
+        <p>Loads the page in different tab</p>
+        <a href="https://chatgpt.com/" target="_blank">Visit Chatgpt</a>
+        <h2>Target-parent</h2>
+        <p>Loads the page in Parent Frame</p>
+        <iframe width="300" height="100" style="border: 3px dashed black; padding: 30px 0 0 30px;"
+        srcdoc="<a target='_parent' href='/html'>HTML Tutorial</a>"></iframe>
+    </head>
+</html>
